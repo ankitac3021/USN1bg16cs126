@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("dog7.jpg");
+    background-size: 100%;
+    
+}
+
+.a1{
+padding-top: 170px;
+padding-left: 30px;
+}
+
+.header{
+    padding-left: 750px;
+}
+
+.trii{
+    margin-left: 370px;
+    background-color: white; 
+    color: brown; 
+    border: 2px solid blue;
+    size: 50px;
+}
+
+.container{
+    /*background-color: blanchedalmond;*/
+    color: black;
+    margin-left: 300px;
+    padding-left: 180px; 
+    margin-right: 500px;
+    border:2px brown solid;
+    
+    
+}
+.con{
+    margin-top: 40px;
+    /*background-color: lightblue;*/
+    color: black;
+    margin-left: 300px;
+    padding-left: 100px; 
+    margin-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:2px orange solid;
+}
+.button1{
+    margin-top: 40px;
+    margin-left: 130px;
+    background-color: white; 
+    color: brown; 
+    border: 2px solid blue;
+    size: 50px;
+}
+

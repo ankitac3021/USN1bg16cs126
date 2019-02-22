@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adopt Dogs</title>
+        <meta charset="utf-8"/>  <!-- Character set-->
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div class="happy">
+     <div class="container">
+            <h3><font face="Comic Sans MS" size="5" color="red" text-align="center"> Register Here </font></h3>
+                 </div>
+
+        <div class="con">
+            <table>
+                <tr>
+               <td> <label for="uname"><b><font face="Comic Sans MS" size="5" color="yellow">Name:</font></b></label> </td>
+               <td> <input type="text" placeholder="Ankita" name="uname"  pattern="[a-zA-Z]*" required> </td>
+            </tr>
+            <tr>
+                    <td> <label for="age"><b><font face="Comic Sans MS" size="5" color="yellow">Age:</font></b></label> </td>
+                    <td> <input type="text" name="age" placeholder="20"  pattern="[0-9]{2}" required> </td>
+            </tr>
+            <tr>
+            <td><label for="email"><b><font face="Comic Sans MS" size="5" color="yellow">Email:</font></b></label> </td>
+            <td>   <input type="text" placeholder="ankitac3021@gmail.com" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> </td>
+            </tr>
+            <tr>
+                    <td> <label for="address"><b><font face="Comic Sans MS" size="5" color="yellow">Address:</font></b></label> </td>
+                    <td> <input type="text" name="address" placeholder="27th cross,BSK-II" required> </td>
+                 </tr>
+                 <tr>
+                        <td> <label for="password"><b><font face="Comic Sans MS" size="5" color="yellow">Password:</font></b></label> </td>
+                        <td> <input type="password" name="pass" placeholder="********* (min 6 chars)"  pattern="[a-zA-Z0-9]{6}" required> </td>
+                </tr>
+                
+                <tr>
+                        <td> <label for="phone"><b><font face="Comic Sans MS" size="5" color="yellow">Breed:</font></b></label> </td>
+                        <td> <div class="form-row" class="main-label">
+                                <select name="breeds" id="breeds">
+                                    <option value="poodle">Poodle</option>
+                                    <option value="pomerian">Pomerian</option>
+                                    <option value="">Labrador</option>
+                                    <option value="">Retriever</option>
+                                    <option value="">Bull Dog</option>
+                                </select>
+                            </div> </td>
+                </tr>
+                <tr>
+                    <td>
+                            <label for="address"><b><font face="Comic Sans MS" size="5" color="yellow">Gender:</font></b></label>
+                    </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <div class="radio">
+                                    <label><input type="radio" id='express' name="optradio"> <font face="Comic Sans MS" size="5" color="yellow">Male </font></label>
+                               </div>
+                            </td>
+                            <td>
+                                
+                            </td>
+
+                </tr>
+                <tr>
+                        <td>
+                            <div class="radio">
+                                <label><input type="radio" id='regular' name="optradio"> <font face="Comic Sans MS" size="5" color="yellow"> Female </font></label>
+                            </div>
+                        </td>
+                        <td>
+                    
+                        </td>
+                    </tr>
+                <tr>
+                    <td> </td>
+                </tr>
+
+                
+            </table>
+            <form action="page3.html" mathod="POST">
+                    <button class="button1" style="height:30px;width:100px"><b>Done</b></button>
+                </form> 
+            </div>
+        </div>
+        </body>
+    
+    </html>
